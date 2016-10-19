@@ -14,7 +14,7 @@
         }
     }
 
-    
+
     if(is_correctly_init_loading == true)
     {
         var nbr_load_loading = 0;
@@ -25,7 +25,7 @@
             MODIFIES    :
             EFFECTS     :
         */
-        loading_showFiltreWaiting = function (blocked)
+        loading_showWaiting = function (blocked)
         {
             if(typeof(blocked) === "undefined"
             || (blocked != true &&
@@ -53,6 +53,17 @@
                 $('#loading_error').hide();
             }
         };
+
+        loading_hideWainting = function(is_error, txt)
+        {
+            if(is_error == true)
+            {
+
+            }
+            else {
+                
+            }
+        }
 
 
     }
